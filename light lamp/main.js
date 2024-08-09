@@ -19,7 +19,7 @@ function updateTimeAndDate() {
         month = ' ' + month.slice(1);
     }
     if (day.startsWith('0')) {
-        day = '' + day.slice(1);
+        day = ' ' + day.slice(1);
     }
     const displayStr = timeStr + amPm + month + day + year;
     for (let i = 0; i < 12; i++) {
